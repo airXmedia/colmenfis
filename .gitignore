@@ -5,3 +5,6 @@
 
 # Cache Sass
 .sass-cache 
+
+# PHP Cache
+php/cache
