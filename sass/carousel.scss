@@ -1,0 +1,174 @@
+/* Vars ----------------------------------------------------*/
+
+/* Mixins ----------------------------------------------------*/
+
+/* Carousel def  ----------------------------------------------------*/
+
+/* Carousel Horizontal ----------------------------------------------------*/
+
+.carousel-holder {
+  margin-bottom: 20px;
+  .carousel-heading {
+    text-align: center;
+    padding-top: 40px;
+    .title {
+      color: #444444;
+      border-bottom: 1px solid #cccccc;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+    span {
+      font-size: 14px;
+      display: block;
+      margin-bottom: 22px;
+      margin-left: 80px;
+      margin-right: 80px;
+    }
+  }
+}
+
+.jcarousel-skin-folder {
+  /* Next Horizontal ----------------------------------------------------*/
+  /* Previous Horizontal ----------------------------------------------------*/
+  /* Vertical rules ------------------------------------------*/
+  /* Next Vertical ----------------------------------------------------*/
+  /* Previous Vertical ----------------------------------------------------*/
+  img {
+    height: 100px;
+  }
+  .jcarousel-container {
+    margin-bottom: 70px;
+  }
+  .jcarousel-container-horizontal {
+    width: 780px;
+    /* 940 - 80 x 2 */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto 60px auto;
+  }
+  .jcarousel-clip {
+    overflow: hidden;
+  }
+  .jcarousel-clip-horizontal {
+    width: 780px;
+    height: 130px;
+  }
+  .jcarousel-item {
+    width: 195px;
+    height: 130px;
+    .caption {
+      text-align: center;
+      color: #444;
+      font-size: 12px;
+    }
+  }
+  .jcarousel-item-horizontal {
+    margin-left: 0;
+    margin-right: 0px;
+  }
+  .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+  }
+  .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 100px;
+    cursor: pointer;
+    border-left: 1px solid #cccccc;
+    background: transparent url(../img/arrow-right-dark.png) no-repeat center center;
+  }
+  .jcarousel-next-disabled-horizontal {
+    cursor: default;
+    background: transparent url(../img/arrow-right-dark.png) no-repeat center center;
+    opacity: 0.2;
+    &:hover, &:focus, &:active {
+      cursor: default;
+      background: transparent url(../img/arrow-right-dark.png) no-repeat center center;
+      opacity: 0.2;
+    }
+  }
+  .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 100px;
+    cursor: pointer;
+    border-right: 1px solid #dddddd;
+    background: transparent url(../img/arrow-left-dark.png) no-repeat center center;
+  }
+  .jcarousel-prev-disabled-horizontal {
+    cursor: default;
+    background: transparent url(../img/arrow-left-dark.png) no-repeat center center;
+    opacity: 0.2;
+    &:hover, &:focus, &:active {
+      cursor: default;
+      background: transparent url(../img/arrow-left-dark.png) no-repeat center center;
+      opacity: 0.2;
+    }
+  }
+  .jcarousel-container-vertical {
+    width: 195px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0px;
+    height: 470px;
+    margin: 0 auto;
+  }
+  .jcarousel-clip-vertical {
+    width: 195px;
+    height: 390px;
+  }
+  .jcarousel-item-vertical {
+    margin-left: 0;
+    margin-right: 0px;
+  }
+  .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 195px;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    background: transparent url(../img/arrow-down.png) no-repeat center center;
+  }
+  .jcarousel-next-disabled-vertical {
+    cursor: default;
+    background: transparent url(../img/arrow-down.png) no-repeat center center;
+    opacity: 0.2;
+    &:hover, &:focus, &:active {
+      cursor: default;
+      background: transparent url(../img/arrow-down.png) no-repeat center center;
+      opacity: 0.2;
+    }
+  }
+  .jcarousel-prev-vertical {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 195px;
+    height: 80px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    background: transparent url(../img/arrow-up.png) no-repeat center center;
+  }
+  .jcarousel-prev-disabled-vertical {
+    cursor: default;
+    background: transparent url(../img/arrow-up.png) no-repeat center center;
+    opacity: 0.2;
+    &:hover, &:focus, &:active {
+      cursor: default;
+      background: transparent url(../img/arrow-up.png) no-repeat center center;
+      opacity: 0.2;
+    }
+  }
+}

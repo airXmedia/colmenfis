@@ -757,11 +757,11 @@ a.sb.plus,
 .sb a.plus {
 	background-image: url(../img/social/add_this.png);
 }
-
+/*
 a.sb.500,
 .sb a.500 {
 	background-image: url(../img/social/500.png);
-}
+}*/
 
 a.sb.aboute_me,
 .sb a.about_me {
