@@ -1,0 +1,7 @@
+
+# Temporal files in Linux
+*~
+.directory
+
+# Cache Sass
+.sass-cache 
