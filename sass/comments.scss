@@ -1,3 +1,5 @@
+@import "palette";
+
 /* Vars ----------------------------------------------------*/
 
 /* Mixins ----------------------------------------------------*/
@@ -9,7 +11,7 @@
   margin-bottom: 60px;
   /* COMMENTS PAGINATION ------------------------------------------------------------*/
   a {
-    color: #cb5432;
+    color: $blue;
     text-decoration: none;
   }
   .heading {
@@ -78,7 +80,7 @@
           padding: 3px 10px;
           box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
           &:hover {
-            color: #cb5432;
+            color: $blue;
           }
         }
       }

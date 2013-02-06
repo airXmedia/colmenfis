@@ -1,13 +1,10 @@
+
+@import "palette.scss";
 @import url('reset.css');
-
 @import url('widgets.css');
-
 @import url('social.css');
-
 @import url('shortcodes.css');
-
-@import url('comments.css');
-
+@import "comments";
 @import url('forms.css');
 
 /*
@@ -531,7 +528,7 @@ body.home #main {
     float: left;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
     a:hover, &.active a {
-      background: #cb5432;
+      background: $lightblue;
       color: #fff;
     }
   }
@@ -543,7 +540,7 @@ body.home #main {
     text-decoration: none;
     width: 20px;
     line-height: 20px;
-    color: #cb5432;
+    color: $purple;
     background: #f1f1f1;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;

@@ -1,3 +1,5 @@
+@import "palette";
+
 /* Vars ----------------------------------------------------*/
 
 /* Mixins ----------------------------------------------------*/
@@ -97,7 +99,7 @@
       display: table;
       margin-top: 18px;
       padding: 3px;
-      background: #cb5432;
+      background: $lightblue;
       color: #000;
     }
   }
@@ -123,19 +125,19 @@
     .button-next {
       float: left;
       text-indent: -999px;
-      background: url(../img/arrow-right-dark.png) center center no-repeat #cb5432;
+      background: url(../img/arrow-right-dark.png) center center no-repeat $lightblue;
     }
     .button-previous {
       float: left;
       text-indent: -999px;
       right: 30px;
-      background: url(../img/arrow-left-dark.png) center center no-repeat #cb5432;
+      background: url(../img/arrow-left-dark.png) center center no-repeat $lightblue;
     }
     .button-control {
       float: left;
       text-indent: -999px;
       right: 60px;
-      background: url(../img/button-control.png) center center no-repeat #cb5432;
+      background: url(../img/button-control.png) center center no-repeat $lightblue;
     }
     .hover-stop, .action-start {
       background: url(../img/button-control-play.png) center center no-repeat rgba(0, 0, 0, 0.8);
@@ -166,7 +168,7 @@
       float: left;
       display: block;
       text-align: center;
-      background: #cb5432;
+      background: $lightblue;
       img {
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
