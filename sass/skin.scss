@@ -11,6 +11,7 @@
 body {
   color: #656360;
   background: #f1ede8 url(../img/noise-all.png);
+
   a:hover {
     color: $lightblue;
   }
@@ -50,11 +51,12 @@ body {
 #nav {
   > li {
     > a {
-      // color: #dcd2be;
       padding: {
         left: 5px;
         right: 5px;
       }
+
+      font-weight: bold;
 
       &:hover {
         background-color: transparentize($lightblue, .9);
@@ -66,20 +68,22 @@ body {
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease;
-      border-top: 3px solid $blue;
     }
   }
+
   span:hover {
     -webkit-transform: translate(-10px, -3px);
     -moz-transform: translate(-10px, -3px);
     -o-transform: translate(-10px, -3px);
     transform: translate(-10px, -3px);
   }
+
   > li {
     &.current-menu-item > a, &.current_page_item > a {
       border-top: 3px solid $blue;
     }
   }
+
   .sfHover ul {
     background: #f8f5f2;
     li a {
@@ -165,6 +169,7 @@ body {
       color: $blue;
     }
   }
+
   .thumb {
     background: $blue url(../img/icon-link.png) no-repeat center center;
   }
@@ -185,6 +190,7 @@ body {
       color: #dcd2be;
       background: #2d2d2d;
     }
+
     .excerpt {
       .post-heading {
         color: #444444;
@@ -192,6 +198,7 @@ body {
           color: $blue;
         }
       }
+
       .learnmore {
         background: #2d2d2d;
         color: #f8f5f2;
@@ -200,6 +207,7 @@ body {
         }
       }
     }
+
     .meta a {
       color: #656360;
       &:hover {
