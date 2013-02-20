@@ -4,7 +4,7 @@
 .directory
 
 # Cache Sass
-.sass-cache 
+.sass-cache
 
 # PHP Cache
 php/cache
