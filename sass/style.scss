@@ -1,4 +1,4 @@
-@import "compass/css3";
+
 @import "palette.scss";
 @import url('reset.css');
 @import url('widgets.css');
@@ -106,9 +106,8 @@ h6 {
 
 #logo {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   float: left;
-  
   &:hover {
     opacity: 0.8;
   }
@@ -136,26 +135,20 @@ h6 {
   text-decoration: none;
   > li {
     margin: 0 10px;
-    border-radius: 20px;
-
     &:first-child {
       margin-left: 0px;
     }
-
     &:last-child {
       border-right: none;
       padding-right: 0px;
     }
-
     > a {
       font-family: Arial, sans-serif;
-      font-size: 14px;
+      font-size: 12px;
       display: block;
       overflow: hidden;
-      line-height: 40px;
-      border-radius: 20px;
-      margin-top: 25px;
-      background-color: transparentize($lightblue, .8);
+      line-height: 80px;
+      border-top: 3px solid transparent;
     }
   }
 }
@@ -521,7 +514,6 @@ body.home #main {
   font-size: 13px;
   margin: 0px 0px 0px 0px;
   padding-bottom: 50px;
-
   .paged {
     float: right;
     font-style: italic;
@@ -529,14 +521,12 @@ body.home #main {
     box-shadow: none;
     color: #999;
   }
-
   li {
     display: block;
     margin-right: 5px;
     margin-bottom: 10px;
     float: left;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
-
     a:hover, &.active a {
       background: $lightblue;
       color: #fff;
@@ -593,13 +583,10 @@ body.home #main {
   article {
     position: relative;
     margin-bottom: 55px;
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
-    @include transition(box-shadow 0.3s ease);
-
-    &:hover {
-      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-    }
-
     .feature-image {
       width: 100%;
       line-height: 0em;
@@ -611,12 +598,10 @@ body.home #main {
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
       }
-
       a img:hover {
         opacity: 0.1;
       }
     }
-
     .box {
       position: relative;
       padding-left: 40px;

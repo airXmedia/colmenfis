@@ -4,7 +4,11 @@
  */
 
 // Logo colors
-$blue: hsl(242, 56%, 46%);
-$lightblue: hsl(245, 33%, 65%);
-$purple: hsl(254, 47%, 50%);
+$blue: hsl(242, 56%, 37%);
+$lightblue: hsl(245, 33%, 54%);
+$purple: hsl(254, 47%, 34%);
 $text-select: lighten($lightblue, 15%);
+
+/**
+ *  Mixin
+ */
